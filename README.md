@@ -7,3 +7,5 @@ The used pins of Arduino UNO used are:
   12 -> DIN
   10 -> CLK
   11 -> CS.
+  
+Demonstration video: https://youtu.be/IdI3nkfWxM8
