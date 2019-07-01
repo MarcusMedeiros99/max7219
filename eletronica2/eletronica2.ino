@@ -48,44 +48,46 @@ void setup()
 {
   for (int i = 0; i < 8; i++)  
   {
-    lc.setRow(0,i,invader1a[i]);
+    lc.setRow(0,i,A[i]);
   }
 }*/
 
 void dispLetter(byte a[]) {
    for (int i = 0; i < 8; i++) {
-    lc.setRow(1,i, a[i]);
+    lc.setRow(0,i, a[i]);
    }
 }
 
 void loop()
-{
-    //displaying "HELLO WORLD
-    dispLetter(H);
+{ 
+    //sinvader1a();
+    dispLetter(X);
     delay(delayTime);
-    dispLetter(E);
+    dispLetter(U);
     delay(delayTime);
-    dispLetter(L);
+    dispLetter(P);
     delay(delayTime);
-    dispLetter(L);
-    delay(delayTime);
-    dispLetter(O);
+    dispLetter(A);
     delay(delayTime);
 
     dispLetter(ALL);
     delay(delayTime);
     
-    dispLetter(W);
+    dispLetter(F);
     delay(delayTime);
-    dispLetter(O);
-    delay(delayTime);
-    dispLetter(R);
-    delay(delayTime);
-    dispLetter(L);
+    dispLetter(E);
     delay(delayTime);
     dispLetter(D);
     delay(delayTime);
-
+    dispLetter(E);
+    delay(delayTime);
+    dispLetter(R);
+    delay(delayTime);
+    dispLetter(A);
+    delay(delayTime);
+    dispLetter(L);
+    delay(delayTime);
+    
     dispLetter(ALL);
     delay(delayTime);
 
