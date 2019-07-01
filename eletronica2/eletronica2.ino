@@ -60,6 +60,7 @@ void dispLetter(byte a[]) {
 
 void loop()
 {
+    //displaying "HELLO WORLD
     dispLetter(H);
     delay(delayTime);
     dispLetter(E);
